@@ -1,0 +1,181 @@
+/* .simple-block {
+	background: green;
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+} */
+
+/* 
+.progress-bar-wrapper {
+	height: 50px;
+	width: 1000px;
+	background: grey;
+	margin: 0 auto;
+}
+
+.progress-bar-inner {
+	height: 100%;
+	width: 0;
+	background: red;
+	transition: all linear .1s;
+}
+
+.vertical-bar {
+	height: 800px;
+	width: 100px;
+	background: blue;
+	margin: 0 auto;
+}
+
+.vertical-bar-inner {
+	height: 0;
+	width: 100%;
+	background: yellow;
+	transition: all linear .1s;
+} */
+
+.correct {
+	width: 200px;
+	height: 20px;
+	background: black;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.correct-inner {
+	display: inline-block;
+	height: 100%;
+	background: green;
+}
+
+.false-bar {
+	width: 200px;
+	height: 20px;
+	background: black;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.false-inner {
+	display: inline-block;
+	height: 100%;
+	background: red;
+}
+
+p {
+	width: 700px;
+	margin: 100px auto 0;
+	border: 2px dashed grey;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.words {
+	display: flex;
+	margin: 100px auto;
+	width: 1000px;
+	height: 50px;
+	justify-content: center;
+}
+
+.words div {
+	width: 50px;
+	height: 50px;
+	background: grey;
+	border-radius: 5px;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	color: red;
+	margin: 0 5px;
+}
+
+textarea {
+	width: 700px;
+	height: 400px;
+	border: 5px solid black;
+	border-radius: 10px;
+	font-size: 20px;
+	overflow: auto;
+}
+
+
+textarea:active,
+textarea:focus {
+	outline: none;
+}
+
+.modal {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.modal-correct {
+	display: none;
+	background: rgba(0, 255, 66, .5);
+}
+
+.win{
+	position: absolute;
+	top: 300px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background: green;
+	border-radius: 10px;
+	font-size: 60px;
+	color: white;
+}
+
+.modal-false {
+	display: none;
+	background: rgba(0, 0, 0, .5);
+}
+
+.game-over {
+	position: absolute;
+	top: 300px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background: black;
+	border-radius: 10px;
+	font-size: 60px;
+	color: red;
+}
+
+.retry {
+	border: 1px solid black;
+	border-radius: 10px;
+	display: block;
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: 500px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-size: 24px;
+	color: black;
+	transition: .4s;
+}
+
+.retry:active,
+.retry:hover,
+.retry:focus {
+	outline: none;
+}
+
+.retry:active {
+	box-shadow: inset 0 0 3px 3px darkgrey;
+}
+
+.retry:hover {
+	transform: scale(1.05);
+}
